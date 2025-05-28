@@ -1,0 +1,17 @@
+
+{
+  "id": "org.stremio.dropbox",
+  "version": "1.0.0",
+  "name": "Películas Dropbox",
+  "description": "Addon privado para ver tus películas en Dropbox",
+  "resources": ["stream", "catalog"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "dropbox",
+      "name": "Películas Dropbox"
+    }
+  ],
+  "idPrefixes": ["dropbox:"]
+}

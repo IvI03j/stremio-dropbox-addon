@@ -1,0 +1,12 @@
+
+{
+  "name": "dropbox-addon",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.0.0"
+  }
+}
