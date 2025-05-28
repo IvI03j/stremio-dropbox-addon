@@ -2,11 +2,12 @@
 {
   "name": "dropbox-addon",
   "version": "1.0.0",
+  "description": "Addon privado para ver películas desde Dropbox",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-  "express": "^4.18.2",
-  "stremio-addon-sdk": "^1.0.0"
+    "stremio-addon-sdk": "^1.0.0"
+  }
 }
